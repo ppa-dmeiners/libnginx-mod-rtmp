@@ -1,0 +1,29 @@
+Source: libnginx-mod-rtmp
+Section: httpd
+Priority: optional
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Uploaders: Jan Mojžíš <janmojzis@debian.org>,
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-nginx,
+Standards-Version: 4.7.2
+Homepage: https://github.com/arut/nginx-rtmp-module
+Vcs-Git: https://salsa.debian.org/nginx-team/libnginx-mod-rtmp.git
+Vcs-Browser: https://salsa.debian.org/nginx-team/libnginx-mod-rtmp
+Rules-Requires-Root: no
+
+Package: libnginx-mod-rtmp
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: nginx,
+Description: RTMP support for Nginx
+ The nginx RTMP module is a fully-featured streaming solution implemented in
+ nginx.
+ .
+ It provides the following features:
+  - Live streaming with RTMP, HLS and MPEG-DASH;
+  - RTMP Video on Demand from local or HTTP sources;
+  - Stream relay support via a push or pull model;
+  - Integrated stream recording;
+  - and more.

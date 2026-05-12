@@ -1,0 +1,9 @@
+Version: 5
+Template: Github
+Owner: arut
+Project: nginx-rtmp-module
+Uversion-Mangle: s/(\d)[_\.\-\+]?((RC|rc|pre|dev|beta|alpha|a|b)\d*)$/$1~$2/
+Dversion-Mangle: s/\+dfsg\d*//
+Compression: xz
+Repacksuffix: +dfsg
+Pgp-Mode: none
