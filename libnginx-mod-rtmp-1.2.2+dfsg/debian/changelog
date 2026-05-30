@@ -1,8 +1,8 @@
-libnginx-mod-rtmp (1:1.2.2+dfsg-7+ubuntu26.04.1+deb.meiners.net+1.30.1) resolute; urgency=medium
+libnginx-mod-rtmp (1:1.2.2+dfsg-7+ubuntu24.04.1+deb.meiners.net+1.30.2) noble; urgency=medium
 
-  * build against nginx-abi-1.30.1
+  * New upstream version 1.30.2
 
- -- David Meiners <david@meiners.net>  Fri, 15 May 2026 01:08:58 +0000
+ -- David Meiners <david@meiners.net>  Wed, 27 May 2026 20:57:47 +0000
 
 libnginx-mod-rtmp (1:1.2.2+dfsg-7+ubuntu24.04.1+deb.meiners.net+1.30.1) noble; urgency=medium
 
