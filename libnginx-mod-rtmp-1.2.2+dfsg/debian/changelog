@@ -1,4 +1,4 @@
-libnginx-mod-rtmp (1:1.2.2+dfsg-7+ubuntu24.04.1+deb.meiners.net+1.30.2) noble; urgency=medium
+libnginx-mod-rtmp (1:1.2.2+dfsg-7+ubuntu26.04.1+deb.meiners.net+1.30.2) resolute; urgency=medium
 
   * New upstream version 1.30.2
 
