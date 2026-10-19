@@ -1,3 +1,9 @@
+libnginx-mod-rtmp (1:1.2.2+dfsg-7+ubuntu24.04.1+deb.meiners.net+1.30.6) noble; urgency=medium
+
+  * New upstream version 1.30.6
+
+ -- David Meiners <david@meiners.net>  Mon, 19 Oct 2026 20:21:13 +0000
+
 libnginx-mod-rtmp (1:1.2.2+dfsg-7+ubuntu24.04.1+deb.meiners.net+1.30.5) noble; urgency=medium
 
   * New upstream version 1.30.5
